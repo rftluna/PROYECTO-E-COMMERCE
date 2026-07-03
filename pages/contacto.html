@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://fonts.google.com/specimen/Elms+Sans?categoryFilters=Sans+Serif:%2FSans%2FGeometric;Feeling:%2FExpressive%2FCalm"
+        />
+        <!-- CALM -->
+        <link rel="stylesheet" href="../css/styles.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <div class="div-logo">
+                <a href="../index.html" class="logo">LOGO E-COMMERCE</a>
+            </div>
+
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                    <!-- AGREGAR UN LINK AL CARRITO, CON UN ID PARA EL CONTADOR -->
+                    <li>
+                        <a href="./carrito.html" class="carrito-icono"
+                            >🛒 <span id="contador-carrito">0</span></a
+                        >
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h1 class="titulo-contacto text-secondary">Contactanos</h1>
+            <!-- modify this form HTML and place wherever you want your form -->
+            <form
+                class="form-contacto"
+                action="https://formspree.io/f/xzdoapkq"
+                method="POST"
+            >
+                <div class="grupo-input">
+                    <label for="email">
+                        Your email:
+                        <input type="email" name="email" />
+                    </label>
+                    <input id="email" type="email" name="email" />
+                </div>
+
+                <div class="grupo-input">
+                    <label for="mensaje"> Your message: </label>
+                    <textarea id="mensaje" name="message"></textarea>
+                </div>
+                <!-- your other form fields go here -->
+                <button class="btn bg-secondary text-dark" type="submit">
+                    Send
+                </button>
+            </form>
+        </main>
+
+        <footer>
+            <p>Sitio relizado por Roman para TalentoTech</p>
+            <nav>
+                <ul class="footer-list">
+                    <li>
+                        <img
+                            src="../img/logo-whatsapp.png"
+                            alt="logo-whatsapp"
+                        />
+                    </li>
+                    <!-- atributo alt lee en el lector de pantalla -->
+                    <li>
+                        <img src="../img/instagram.png" alt="logo-instagram" />
+                    </li>
+                    <li>
+                        <img src="../img/facebook.png" alt="logo-facebook" />
+                    </li>
+                    <li><img src="../img/tik-tok.png" alt="logo-tik-tok" /></li>
+                </ul>
+            </nav>
+        </footer>
+        <!-- AGREGAR TPYE MODULE Y ENLACE AL CONTACTO.JS -->
+        <script type="module" src="../js/contacto.js"></script>
+    </body>
+</html>

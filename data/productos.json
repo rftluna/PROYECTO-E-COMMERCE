@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "nombre": "Botines de futbol naranjas Topper",
+        "img": "img/botines-topper.jpeg",
+        "precio": 50000.0
+    },
+    {
+        "id": "2",
+        "nombre": "Botines de futbol amarillos Adidas",
+        "img": "img/botines-adidas.jpeg",
+        "precio": 69000.0
+    },
+    {
+        "id": "3",
+        "nombre": "Pelota de rugby modelo UAR",
+        "img": "img/pelota-rugby.jpeg",
+        "precio": 20000.0
+    },
+    {
+        "id": "4",
+        "nombre": "Remera de futbol TITULAR mangas cortas - Seleccion Argentina 2026",
+        "img": "img/remera-argentina-2026.jpeg",
+        "precio": 150000.0
+    },
+    {
+        "id": "5",
+        "nombre": "Remera de futbol ALTERNATIVA mangas largas - Seleccion Argentina 2026",
+        "img": "img/remera-argentina-2026-alternativa.jpeg",
+        "precio": 150000.0
+    }
+]
